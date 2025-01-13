@@ -8,9 +8,32 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Reference",
+"class": "Event",
+"language": "GDScript",
+"path": "res://game/event/event.gd"
+}, {
+"base": "Reference",
+"class": "GameState",
+"language": "GDScript",
+"path": "res://game/state/game_state.gd"
+}, {
+"base": "Reference",
+"class": "StateManager",
+"language": "GDScript",
+"path": "res://game/state/state_manager.gd"
+} ]
+_global_script_class_icons={
+"Event": "",
+"GameState": "",
+"StateManager": ""
+}
+
 [application]
 
 config/name="Hex Survival"
+run/main_scene="res://main.tscn"
 
 [gui]
 
