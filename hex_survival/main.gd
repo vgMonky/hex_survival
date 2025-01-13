@@ -6,5 +6,6 @@ var SM : StateManager
 func _ready():
 	SM = StateManager.new()
 	
-	var test_event : Event = Event.new(SM)
-	test_event.trigger()
+	# Create and trigger MapEvent
+	var map_event = MapEvent.new(SM)
+	map_event.create_map(2, 2)

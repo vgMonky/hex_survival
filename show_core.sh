@@ -2,10 +2,10 @@
 
 # Define core files
 core_files=(
-    "./hexa_survival/game/state/state_manager.gd"
-    "./hexa_survival/game/state/game_state.gd"
-    "./hexa_survival/game/state/event/base_event.gd"
-    "./hexa_survival/game/state/event/map_event.gd"
+    "./hex_survival/game/state/state_manager.gd"
+    "./hex_survival/game/state/game_state.gd"
+    "./hex_survival/game/event/event.gd"
+    "./hex_survival/game/event/map_event.gd"
 )
 
 # Define README files
