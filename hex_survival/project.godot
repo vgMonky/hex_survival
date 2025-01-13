@@ -9,6 +9,16 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "Entity",
+"class": "CharacterEntity",
+"language": "GDScript",
+"path": "res://game/data/entity/character_entity.gd"
+}, {
+"base": "Event",
+"class": "CharacterEvent",
+"language": "GDScript",
+"path": "res://game/event/character_event.gd"
+}, {
 "base": "Reference",
 "class": "Entity",
 "language": "GDScript",
@@ -24,7 +34,7 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://game/state/game_state.gd"
 }, {
-"base": "Entity",
+"base": "Reference",
 "class": "HexTile",
 "language": "GDScript",
 "path": "res://game/data/entity/hex_tile.gd"
@@ -40,6 +50,8 @@ _global_script_classes=[ {
 "path": "res://game/state/state_manager.gd"
 } ]
 _global_script_class_icons={
+"CharacterEntity": "",
+"CharacterEvent": "",
 "Entity": "",
 "Event": "",
 "GameState": "",

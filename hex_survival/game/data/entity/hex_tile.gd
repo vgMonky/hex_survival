@@ -1,4 +1,4 @@
-extends Entity
+extends Reference
 class_name HexTile
 
 var terrain_type: String = "grass"  # Example property

@@ -6,6 +6,8 @@ core_files=(
     "./hex_survival/game/state/game_state.gd"
     "./hex_survival/game/event/event.gd"
     "./hex_survival/game/event/map_event.gd"
+    "./hex_survival/game/data/entity/entity.gd"
+    "./hex_survival/game/data/entity/hex_tile.gd"
 )
 
 # Define README files
