@@ -9,3 +9,4 @@ func _ready():
 	# Create and trigger MapEvent
 	var map_event = MapEvent.new(SM)
 	map_event.create_map(2, 2)
+	SM.current_game_state.print_map()
