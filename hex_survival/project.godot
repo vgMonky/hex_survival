@@ -9,15 +9,15 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "Entity",
-"class": "CharacterEntity",
-"language": "GDScript",
-"path": "res://game/data/entity/character_entity.gd"
-}, {
 "base": "Event",
 "class": "CharacterEvent",
 "language": "GDScript",
 "path": "res://game/event/character_event.gd"
+}, {
+"base": "Reference",
+"class": "Component",
+"language": "GDScript",
+"path": "res://game/data/component/component.gd"
 }, {
 "base": "Reference",
 "class": "Entity",
@@ -44,19 +44,25 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://game/event/map_event.gd"
 }, {
+"base": "Component",
+"class": "PositionComponent",
+"language": "GDScript",
+"path": "res://game/data/component/position_component.gd"
+}, {
 "base": "Reference",
 "class": "StateManager",
 "language": "GDScript",
 "path": "res://game/state/state_manager.gd"
 } ]
 _global_script_class_icons={
-"CharacterEntity": "",
 "CharacterEvent": "",
+"Component": "",
 "Entity": "",
 "Event": "",
 "GameState": "",
 "HexTile": "",
 "MapEvent": "",
+"PositionComponent": "",
 "StateManager": ""
 }
 
