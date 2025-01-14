@@ -10,5 +10,5 @@ func _init(id: int, name: String, position: Vector2 = Vector2.ZERO):
 	self.name = name
 	self.position = position
 
-func to_string():
+func to_string() -> String:
 	return "Character(ID: %d, Name: %s, Position: %s)" % [id, name, position]
