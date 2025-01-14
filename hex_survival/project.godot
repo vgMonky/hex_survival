@@ -22,7 +22,7 @@ _global_script_classes=[ {
 "base": "Reference",
 "class": "Entity",
 "language": "GDScript",
-"path": "res://game/data/entity/entity.gd"
+"path": "res://game/data/objects/entity.gd"
 }, {
 "base": "Reference",
 "class": "Event",
@@ -37,7 +37,7 @@ _global_script_classes=[ {
 "base": "Reference",
 "class": "HexTile",
 "language": "GDScript",
-"path": "res://game/data/entity/hex_tile.gd"
+"path": "res://game/data/objects/hex_tile.gd"
 }, {
 "base": "Event",
 "class": "MapEvent",
