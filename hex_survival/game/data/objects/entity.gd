@@ -10,8 +10,10 @@ func _init(id: int, typ: String):
 	self.id = id
 	self.type = typ
 
-# Add a component to the entity
 func add_component(component: Component):
+	if components.has(component.get_component_name()):
+		print("Warning: Component with name '%s' already exists. Skipping." % component.get_component_name())
+		return
 	components[component.get_component_name()] = component
 
 # Get a specific component by name

@@ -16,7 +16,7 @@ func create_character():
 	# Add a PositionComponent (which could be shared across other entity types)
 	var position_component = PositionComponent.new(Vector2.ZERO)  # Default position
 	new_character.add_component(position_component)
-	
+
 	# Add the character to the GameState
 	SM.current_game_state.entities[id] = new_character
 	print("Character created: ", new_character.to_string())
